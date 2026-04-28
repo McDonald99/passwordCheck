@@ -28,3 +28,5 @@ def test_noLower():
 def test_lt8():
     with pytest.raises(ValueError):
         check_password("Passwd!")
+
+
